@@ -89,15 +89,15 @@ section.section-navbar::before {
     font-weight: 300;
 }
 .hero a.btn {
-    background-color: #A8FF35;
+    background-color: #A8FF35 !important;
     padding: 16px 32px;
     border-radius: 40px;
     font-weight: 600;
-    color: #000;
+    color: #000 !important;
     border: 0;
 }
 .hero a.btn:hover {
-    color: #000;
+    background-color: #fff !important;
 }
 .hero img.img-hero {
     position: absolute;
@@ -145,11 +145,11 @@ section.section-navbar::before {
     max-width: 730px;
 } */
 
-.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    background-color: #A8FF35;
-    color: #000;
+/* .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    background-color: #000;
+    color: #fff;
     border-color: #000;
-}
+} */
 
 /* end Hero */
 
@@ -242,15 +242,11 @@ section.long-text .content-long-text h1 span {
 }
 .button-platform a {
     padding: 16px 32px;
-    color: #fff;
-    background-color: #000;
+    color: #fff !important;
+    background-color: #000 !important;
     border-radius: 40px;
     font-weight: 500;
     border: none;
-}
-.button-platform a:hover {
-    color: #000;
-    background-color: #A8FF35;
 }
 
 /* end  platform-section */
@@ -315,8 +311,8 @@ section.long-text .content-long-text h1 span {
     margin-right: 10px;
 }
 .btn.pricing-button {
-    background: #A8FF35;
-    color: #000;
+    background: #A8FF35 !important;
+    color: #000 !important;
     width: 100%;
     text-align: center;
     border: none;
@@ -334,17 +330,18 @@ section.long-text .content-long-text h1 span {
     background-color: #A8FF35;
 }
 .btn.pricing-button-green {
-    background: #000;
-    color: #fff;
+    background: #000 !important;
+    color: #fff !important;
+}
+.btn.pricing-button-green:hover {
+    background: #fff !important;
+    color: #000 !important;
+
 }
 
 .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    background-color: #A8FF35;
-    color: #000;
-}
-.btn.pricing-button-green .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    background-color: #ffffff;
-    color: #000;
+    /* background-color: #A8FF35;
+    color: #000; */
 }
 /* end pricing */
 
@@ -363,10 +360,15 @@ section.long-text .content-long-text h1 span {
     color: #87D322;
 }
 .btn.join {
-    background: #000;
-    color: #fff;
+    background: #000 !important;
+    color: #fff !important;
     padding: 16px 48px;
     border-radius: 40px;
+    border: 1px solid #000;
+}
+.btn.join:hover {
+    background-color: #A8FF35 !important;
+    color: #000 !important;
 }
 /* end join */
 
