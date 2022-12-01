@@ -58,7 +58,7 @@ section.section-navbar {
 }
 section.section-navbar::before {
     content: '';
-    background-image: url("../img/Ornament.png");
+    background: url("../img/Ornament.png");
     min-height: 100vh;
     width: 100%;
     position: absolute;
@@ -137,20 +137,6 @@ section.section-navbar::before {
     z-index: 1;
     left: 730px;
 }
-/* .hero img.hero-sosmed {
-    top: 400px;
-    left: -50px;
-    position: absolute;
-    z-index: 1;
-    max-width: 730px;
-} */
-
-/* .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    background-color: #000;
-    color: #fff;
-    border-color: #000;
-} */
-
 /* end Hero */
 
 /* section-newtab */
@@ -277,7 +263,7 @@ section.long-text .content-long-text h1 span {
 .pricing-section .form-switch .form-check-input {
     width: 104px;
     height: 52px;
-    background-image: url("../img/radio2.png");
+    background: url("../img/radio2.png");
     border-color: transparent;
     outline: 0;
     box-shadow: 0 0 0;
@@ -289,7 +275,7 @@ section.long-text .content-long-text h1 span {
     background-color: #A8FF35;
     border-color: transparent;
     background-position: 55px;
-    background-image: url("../img/radio4.png");
+    background: url("../img/radio4.png");
 }
 .pricing-section .card-body {
     padding: 32px;
@@ -339,12 +325,6 @@ section.long-text .content-long-text h1 span {
 
 }
 
-/* .btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
-    background-color: #A8FF35;
-    color: #000;
-} */
-/* end pricing */
-
 /* join */
 
 .join-section {
@@ -392,9 +372,6 @@ footer .list-group-item a:hover {
 /* footer */
 
 /* Responsive */
-
-
-
 
 @media screen and (max-width: 1200px) {
     .platform-section .row .col-sm img {
